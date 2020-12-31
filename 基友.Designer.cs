@@ -42,7 +42,12 @@ namespace PC_CLASS_RUN
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.button4 = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.程序ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.对话ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.退出ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label2
@@ -139,6 +144,37 @@ namespace PC_CLASS_RUN
             this.button4.Text = "发送";
             this.button4.UseVisualStyleBackColor = true;
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.程序ToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(713, 25);
+            this.menuStrip1.TabIndex = 12;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // 程序ToolStripMenuItem
+            // 
+            this.程序ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.对话ToolStripMenuItem,
+            this.退出ToolStripMenuItem});
+            this.程序ToolStripMenuItem.Name = "程序ToolStripMenuItem";
+            this.程序ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
+            this.程序ToolStripMenuItem.Text = "程序";
+            // 
+            // 对话ToolStripMenuItem
+            // 
+            this.对话ToolStripMenuItem.Name = "对话ToolStripMenuItem";
+            this.对话ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.对话ToolStripMenuItem.Text = "对话";
+            // 
+            // 退出ToolStripMenuItem
+            // 
+            this.退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
+            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.退出ToolStripMenuItem.Text = "退出";
+            // 
             // 基友
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -155,9 +191,13 @@ namespace PC_CLASS_RUN
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "基友";
             this.Text = "云教室";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -176,6 +216,10 @@ namespace PC_CLASS_RUN
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem 程序ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 对话ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 退出ToolStripMenuItem;
     }
 }
 
