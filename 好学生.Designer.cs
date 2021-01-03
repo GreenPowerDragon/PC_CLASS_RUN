@@ -101,6 +101,7 @@ namespace PC_CLASS_RUN
             this.button1.TabIndex = 3;
             this.button1.Text = "主动连接";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // 好学生
             // 
@@ -113,6 +114,7 @@ namespace PC_CLASS_RUN
             this.Controls.Add(this.groupBox1);
             this.Name = "好学生";
             this.Text = "好学生";
+            this.Load += new System.EventHandler(this.好学生_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
